@@ -1,0 +1,37 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="nc90aoAetTx8AHRutb0r">
+    <mxGraphModel dx="1001" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Client&lt;div&gt;192.168.1.100&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Big-IP&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Virtual server: 10.10.10.100&lt;/div&gt;&lt;div&gt;Pool: pl_big-ip&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="250" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Pool Member&lt;div&gt;10.10.10.20&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="475" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="524.5" y="280" as="sourcePoint" />
+            <mxPoint x="524.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TCP Session #2&lt;div&gt;(Server-Side)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="325" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TCP Session $1&lt;div&gt;(Cleint Side Connection)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="70" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UgMJQP-rrFFGUCzSzaWA-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UgMJQP-rrFFGUCzSzaWA-2" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="220" y="220" as="sourcePoint" />
+            <mxPoint x="390" y="250.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
