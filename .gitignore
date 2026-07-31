@@ -1,0 +1,76 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+*.cer
+credentials.*
+secrets.*
+passwords.*
+
+# Packet captures
+*.pcap
+*.pcapng
+*.cap
+
+# Virtual-machine and appliance files
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
+*.vmx
+*.ova
+*.ovf
+*.qcow
+*.qcow2
+*.iso
+
+# GNS3 runtime and temporary data
+*.gns3project
+project-files/
+snapshots/
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# Ansible
+*.retry
