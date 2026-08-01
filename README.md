@@ -51,6 +51,37 @@ The current learning path is focused on:
 - Packet-level troubleshooting
 - Automation and repeatable deployment practices
 
+## Current Lab Status
+
+### Infrastructure
+
+- Cisco Layer 2 switching
+- Cisco Layer 3 routing
+- F5 BIG-IP HA pair
+- Multi-homed Ubuntu Apache server
+- Dedicated Management, Internal, External, and HA VLANs
+
+### Validated
+
+- [x] VLAN connectivity
+- [x] Layer 2 MAC-address learning
+- [x] Layer 3 routing
+- [x] BIG-IP non-floating Self IP connectivity
+- [x] BIG-IP floating Self IP connectivity
+- [x] Ubuntu multi-homed networking
+- [x] Apache HTTP service
+- [x] BIG-IP HA synchronization
+- [x] Management and application-network separation
+
+### Next Milestone
+
+- Create an HTTP pool
+- Add the Ubuntu Apache pool member
+- Configure an HTTP health monitor
+- Create an external virtual server
+- Validate HTTP traffic through BIG-IP
+- Prove the two-session full-proxy model
+
 ## Confidentiality
 
 This repository contains personal lab work and independently created educational material only.
