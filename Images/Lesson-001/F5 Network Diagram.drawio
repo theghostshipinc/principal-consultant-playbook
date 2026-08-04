@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="9uwnwHBRqV9G6I5J7rQp">
+    <mxGraphModel dx="2264" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8byNMy-CXJluQX5LtXjh-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="F5 Network Diagram" vertex="1">
+          <mxGeometry height="30" width="130" x="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cisco Router" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BIG-IP HA Pair&lt;div&gt;Active/Standby&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Floating Self IP&amp;nbsp;&lt;/div&gt;&lt;div&gt;Virtual Server (VIP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="250" x="175" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.7099999999999" y="200" as="sourcePoint" />
+            <mxPoint x="299.7099999999999" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.5" y="350" as="sourcePoint" />
+            <mxPoint x="299.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-12" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.49999999999994" y="590" as="sourcePoint" />
+            <mxPoint x="299.49999999999994" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pool: WEB_POOL&lt;br&gt;Members:&lt;div&gt;&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;10.10.10.15:80&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="240" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cisco Switch" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-16" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.71" y="770" as="sourcePoint" />
+            <mxPoint x="299.71" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Version 1.0&lt;br&gt;Baseline Architecture&lt;div&gt;8/3/2026&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="700" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="HTTPS:443" vertex="1">
+          <mxGeometry height="30" width="90" x="300" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="HTTPS:443" vertex="1">
+          <mxGeometry height="30" width="90" x="300" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ubuntu Apache" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="8byNMy-CXJluQX5LtXjh-22" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="299.71" y="940" />
+            </Array>
+            <mxPoint x="299.71" y="920" as="sourcePoint" />
+            <mxPoint x="300.21" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
